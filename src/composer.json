@@ -1,0 +1,20 @@
+{
+    "name": "aminsaki/time",
+    "description": "this is test paket",
+    "license": "MIT",
+     "authors":[{
+            "name":"aminsaki",
+            "email":"aminsaki69@gmail.com"
+
+     }],
+     "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+             "Aminsaki\\time\\": "src/"
+        }
+    },
+    "require": {}
+}
